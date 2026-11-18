@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ॐ गौरी पुत्र जेम्स ज्वेलरी और रुद्राक्ष | Om Gauri Putra Gems, Budh Vihar Delhi</title>
+<meta name="description" content="Om Gauri Putra Gems Jewellery and Rudraksh, Budh Vihar Phase II, Delhi. Sona, chandi, heera, navratna, gemstones aur asli rudraksh. Aaj ka gold rate aur jewellery price calculator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Mukta:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --navy:#0F1A3C; --navy-2:#17244F; --gold:#C9A44C; --brass:#E8CF8A; --sindoor:#B5301F;
+  --bg:#FBF6EA; --surface:#FFFFFF; --ink:#1B2240; --muted:#5B6280; --line:#E3D7B8;
+  --on-navy:#F4ECD6; --on-navy-muted:#B9B3A0; --chip:#F1E7CC; --field:#FFFDF7;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    color-scheme: dark;
+    --bg:#0B1430; --surface:#13204A; --ink:#EDE6D2; --muted:#A7A9BC; --line:#2B3A6B;
+    --chip:#1C2B5C; --field:#0F1A3C; --gold:#D6B45E;
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{font-family:"Mukta",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:17px}
+img{display:block;max-width:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{width:min(1160px,92vw);margin-inline:auto}
+h1,h2,h3,.display{font-family:"Rozha One",serif;font-weight:400;line-height:1.15}
+h2{font-size:clamp(1.9rem,4vw,2.8rem);color:var(--ink)}
+.lede{color:var(--muted);max-width:60ch;margin-top:.4rem}
+section{padding:clamp(3.5rem,8vw,6rem) 0}
+
+/* top bar */
+.topbar{background:var(--navy);color:var(--on-navy);font-size:.92rem;text-align:center;padding:.35rem 0;border-bottom:1px solid #2a3870}
+.topbar span{color:var(--brass)}
+header.nav{position:sticky;top:0;z-index:50;background:var(--navy);border-bottom:1px solid var(--gold)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.6rem 0}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:var(--on-navy)}
+.mark{width:46px;height:46px;border-radius:50%;border:2px solid var(--gold);display:grid;place-items:center;font-family:"Rozha One";color:var(--brass);font-size:1.5rem;background:var(--navy-2)}
+.brand b{font-family:"Rozha One";font-weight:400;font-size:1.25rem;color:var(--brass);display:block;line-height:1}
+.brand small{font-size:.8rem;color:var(--on-navy-muted)}
+.nav ul{display:flex;gap:1.4rem;list-style:none}
+.nav ul a{color:var(--on-navy);text-decoration:none;font-weight:500}
+.nav ul a:hover{color:var(--brass)}
+.nav .call{background:var(--gold);color:var(--navy);padding:.45rem 1rem;border-radius:999px;text-decoration:none;font-weight:700;white-space:nowrap}
+@media (max-width:860px){.nav ul{display:none}}
+
+/* hero */
+.hero{position:relative;background:var(--navy);color:var(--on-navy);padding:clamp(3rem,7vw,5.5rem) 0;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url("https://images.pexels.com/photos/29998305/pexels-photo-29998305.jpeg?auto=compress&cs=tinysrgb&w=1600") center/cover;opacity:.35}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,var(--navy) 35%,rgba(15,26,60,.55) 75%,rgba(15,26,60,.3))}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.25fr 1fr;gap:3rem;align-items:center}
+.mantra{color:var(--brass);letter-spacing:.05em;font-size:1rem}
+.hero h1{font-size:clamp(3.2rem,9vw,6.4rem);color:var(--brass);margin:.3rem 0 .2rem;text-shadow:0 2px 0 #00000055}
+.hero h1 .om{color:var(--gold)}
+.hero .sub{font-family:"Rozha One";font-size:clamp(1.4rem,3.4vw,2.2rem);color:var(--on-navy)}
+.hero .en{color:var(--on-navy-muted);margin-top:.4rem;font-size:1.05rem}
+.offer{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;margin:1.6rem 0;color:var(--on-navy)}
+.offer span{display:flex;align-items:center;gap:.4rem}
+.offer i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.btns{display:flex;flex-wrap:wrap;gap:.8rem}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1.4rem;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid var(--gold);cursor:pointer;font-size:1rem;font-family:inherit}
+.btn.solid{background:var(--gold);color:var(--navy)}
+.btn.ghost{color:var(--brass);background:transparent}
+.btn svg{width:20px;height:20px}
+
+/* rate board — the signature */
+.board{background:linear-gradient(160deg,#1a2a5e,#0d1736);border:2px solid var(--gold);border-radius:6px;padding:1.4rem 1.4rem 1.1rem;box-shadow:0 0 0 6px var(--navy),0 0 0 7px #c9a44c66,0 30px 60px #00000066}
+.board h3{display:flex;justify-content:space-between;align-items:baseline;font-size:1.5rem;color:var(--brass);border-bottom:1px dashed #c9a44c88;padding-bottom:.6rem}
+.board h3 small{font-family:"Mukta";font-size:.85rem;color:var(--on-navy-muted)}
+.live{display:inline-flex;align-items:center;gap:.35rem;font-family:"Mukta";font-size:.8rem;color:#8fe3a6}
+.live::before{content:"";width:8px;height:8px;border-radius:50%;background:#3ccf6a;animation:pulse 1.6s infinite}
+.live.off{color:#f0a48f}.live.off::before{background:var(--sindoor);animation:none}
+@keyframes pulse{50%{opacity:.25}}
+.rate-row{display:grid;grid-template-columns:1fr auto;align-items:baseline;padding:.65rem 0;border-bottom:1px solid #ffffff14}
+.rate-row:last-of-type{border-bottom:0}
+.rate-row .k{color:var(--on-navy)}
+.rate-row .k small{display:block;color:var(--on-navy-muted);font-size:.8rem;line-height:1.2}
+.rate-row .v{font-family:"Rozha One";font-size:1.55rem;color:var(--brass);font-variant-numeric:tabular-nums}
+.board .meta{font-size:.78rem;color:var(--on-navy-muted);margin-top:.6rem;line-height:1.45}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}}
+
+/* categories mosaic */
+.mosaic{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:.8rem;margin-top:2rem}
+.tile{position:relative;border-radius:4px;overflow:hidden;text-decoration:none;background:var(--navy)}
+.tile img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.tile:hover img{transform:scale(1.05)}
+.tile .cap{position:absolute;inset:auto 0 0 0;padding:1rem;background:linear-gradient(transparent,#0F1A3Cee);color:var(--on-navy)}
+.tile .cap b{font-family:"Rozha One";font-weight:400;font-size:1.5rem;color:var(--brass);display:block;line-height:1.1}
+.tile.big{grid-column:span 2;grid-row:span 2}.tile.wide{grid-column:span 2}
+@media (max-width:760px){.mosaic{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.tile.big{grid-row:span 1}}
+
+/* calculator */
+.calc-sec{background:var(--surface);border-block:1px solid var(--line)}
+.calc{display:grid;grid-template-columns:1.1fr .9fr;gap:2.5rem;margin-top:2rem}
+.tabs{display:flex;gap:.4rem;margin-bottom:1.2rem;flex-wrap:wrap}
+.tabs button{font:inherit;font-weight:500;padding:.5rem 1.1rem;border-radius:999px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--navy);color:var(--brass);border-color:var(--navy)}
+@media (prefers-color-scheme: dark){.tabs button[aria-selected="true"]{background:var(--gold);color:var(--navy)}}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.f label{display:block;font-weight:500;font-size:.95rem;margin-bottom:.3rem}
+.f input,.f select{width:100%;font:inherit;padding:.65rem .8rem;border:1px solid var(--line);border-radius:6px;background:var(--field);color:var(--ink)}
+.f .hint{font-size:.8rem;color:var(--muted)}
+.f.full{grid-column:1/-1}
+.seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{flex:1;font:inherit;padding:.6rem;border:0;background:var(--field);color:var(--ink);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--gold);color:var(--navy);font-weight:700}
+.bill{background:var(--navy);color:var(--on-navy);border-radius:6px;padding:1.6rem;border:1px solid var(--gold);align-self:start}
+.bill h3{color:var(--brass);font-size:1.4rem;margin-bottom:.8rem}
+.bill dl{display:grid;grid-template-columns:1fr auto;gap:.5rem 1rem;font-variant-numeric:tabular-nums}
+.bill dt{color:var(--on-navy-muted)}
+.bill dd{text-align:right}
+.bill .total{border-top:1px dashed #c9a44c88;margin-top:.9rem;padding-top:.9rem;display:flex;justify-content:space-between;align-items:baseline}
+.bill .total b{font-family:"Rozha One";font-weight:400;font-size:2.2rem;color:var(--brass)}
+.bill p{font-size:.8rem;color:var(--on-navy-muted);margin-top:.8rem}
+.bill .btn{margin-top:1rem;width:100%;justify-content:center}
+@media (max-width:860px){.calc{grid-template-columns:1fr}.fields{grid-template-columns:1fr}}
+[hidden]{display:none!important}
+
+/* collection */
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.4rem}
+.chips button{font:inherit;padding:.4rem 1rem;border-radius:999px;border:1px solid var(--line);background:var(--chip);color:var(--ink);cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--gold);color:var(--navy);border-color:var(--gold);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.4rem;margin-top:1.6rem}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.item img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.item div{padding:.9rem 1rem 1rem;display:flex;flex-direction:column;gap:.2rem;flex:1}
+.item h3{font-size:1.25rem}
+.item p{color:var(--muted);font-size:.92rem;flex:1}
+.item a{margin-top:.6rem;color:var(--gold);font-weight:700;text-decoration:none}
+.item a:hover{text-decoration:underline}
+
+/* navratna + rudraksh */
+.spirit{background:var(--navy);color:var(--on-navy)}
+.spirit h2{color:var(--brass)}
+.spirit .lede{color:var(--on-navy-muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:2.2rem}
+.ratna{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:.2rem 1.4rem}
+.ratna li{display:flex;align-items:center;gap:.7rem;padding:.55rem 0;border-bottom:1px solid #ffffff14}
+.ratna .gem{width:22px;height:22px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;box-shadow:inset -3px -3px 6px #00000055,inset 2px 2px 4px #ffffff66;flex:none}
+.ratna b{font-weight:500}.ratna small{color:var(--on-navy-muted);margin-left:auto}
+.beads{display:grid;grid-template-columns:repeat(7,1fr);gap:.7rem}
+.bead{aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#a5653a,#5a2e14 70%);display:grid;place-items:center;color:#f7e3c2;font-family:"Rozha One";font-size:1.2rem;border:1px solid #c9a44c55;cursor:pointer;font-family:"Rozha One"}
+.bead[aria-pressed="true"]{outline:2px solid var(--brass);outline-offset:3px}
+.bead-info{margin-top:1.2rem;min-height:4.5rem;border-left:3px solid var(--gold);padding-left:1rem}
+.bead-info b{font-family:"Rozha One";font-weight:400;font-size:1.4rem;color:var(--brass)}
+.rimg{border-radius:4px;margin-top:1.4rem;aspect-ratio:16/9;object-fit:cover;width:100%}
+@media (max-width:860px){.split{grid-template-columns:1fr}}
+
+/* trust */
+.trust{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:2rem}
+.trust h3{font-size:1.35rem;color:var(--gold)}
+.trust p{color:var(--muted)}
+@media (max-width:760px){.trust{grid-template-columns:1fr}}
+
+/* visit */
+.visit{display:grid;grid-template-columns:1fr 1.2fr;gap:2.5rem;margin-top:2rem}
+.visit address{font-style:normal}
+.visit dl{display:grid;gap:1rem}
+.visit dt{font-weight:700;color:var(--gold)}
+.visit dd a{text-decoration:none}
+.visit iframe{width:100%;height:100%;min-height:340px;border:1px solid var(--line);border-radius:4px}
+@media (max-width:860px){.visit{grid-template-columns:1fr}}
+
+footer{background:var(--navy);color:var(--on-navy-muted);text-align:center;padding:2rem 0 5rem;font-size:.9rem;border-top:1px solid var(--gold)}
+footer .display{color:var(--brass);font-size:1.3rem}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 8px 24px #0006}
+.wa-float svg{width:32px;height:32px;fill:#fff}
+</style>
+</head>
+<body>
+
+<div class="topbar">॥ <span>ॐ नमः शिवाय</span> ॥ &nbsp; BIS hallmark gold aur lab-certified ratna</div>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Om Gauri Putra Gems home">
+      <span class="mark">ॐ</span>
+      <span><b>गौरी पुत्र</b><small>OMGP Gems · Budh Vihar, Delhi</small></span>
+    </a>
+    <ul>
+      <li><a href="#rates">आज का भाव</a></li>
+      <li><a href="#calculator">Calculator</a></li>
+      <li><a href="#collection">Collection</a></li>
+      <li><a href="#rudraksh">Ratna & Rudraksh</a></li>
+      <li><a href="#visit">Shop par aayein</a></li>
+    </ul>
+    <a class="call" href="tel:+918851911653">Call karein</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" id="rates">
+  <div class="wrap">
+    <div>
+      <p class="mantra">॥ ॐ नमः शिवाय ॥</p>
+      <h1><span class="om">ॐ</span> गौरी पुत्र</h1>
+      <p class="sub">जेम्स ज्वेलरी और रुद्राक्ष</p>
+      <p class="en">Om Gauri Putra Gems Jewellery and Rudraksh — Budh Vihar Phase II, Delhi</p>
+      <div class="offer" aria-label="Hum kya bechte hain">
+        <span><i style="background:#E0B54A"></i>सोना</span>
+        <span><i style="background:#C9CED6"></i>चाँदी</span>
+        <span><i style="background:#EAF4FF"></i>हीरा</span>
+        <span><i style="background:#C3263A"></i>रत्न</span>
+        <span><i style="background:#2C5BD8"></i>जेम्स स्टोन</span>
+        <span><i style="background:#7A4220"></i>रुद्राक्ष</span>
+      </div>
+      <div class="btns">
+        <a class="btn solid" href="https://wa.me/918851911653?text=Namaste%2C%20mujhe%20jewellery%20ke%20baare%20mein%20jaankari%20chahiye" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>
+          WhatsApp karein
+        </a>
+        <a class="btn ghost" href="#calculator">Jewellery price nikaalein</a>
+      </div>
+    </div>
+
+    <aside class="board" aria-labelledby="board-title" aria-live="polite">
+      <h3 id="board-title">आज का भाव <span id="live" class="live">Live</span></h3>
+      <div class="rate-row"><span class="k">सोना 24K <small>999 shudh · 10 gram</small></span><span class="v" id="r-g24">—</span></div>
+      <div class="rate-row"><span class="k">सोना 22K <small>916 hallmark · 10 gram</small></span><span class="v" id="r-g22">—</span></div>
+      <div class="rate-row"><span class="k">सोना 18K <small>750 · 10 gram</small></span><span class="v" id="r-g18">—</span></div>
+      <div class="rate-row"><span class="k">चाँदी <small>999 · 1 kilo</small></span><span class="v" id="r-ag">—</span></div>
+      <p class="meta" id="rate-meta">Bhav load ho raha hai…</p>
+    </aside>
+  </div>
+</section>
+
+<section id="shop">
+  <div class="wrap">
+    <h2>Hamare yahan kya milta hai</h2>
+    <p class="lede">Shaadi ke set se lekar roz pehenne ki anguthi tak, aur graho ke liye asli ratna se lekar Nepal ke rudraksh tak — sab ek hi dukaan par.</p>
+    <div class="mosaic">
+      <a class="tile big" href="#collection" data-go="gold"><img src="https://images.pexels.com/photos/248077/pexels-photo-248077.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Sone ki anguthiyan aur kangan" loading="lazy"><span class="cap"><b>सोना</b>Bridal set, kangan, chain, anguthi</span></a>
+      <a class="tile" href="#collection" data-go="diamond"><img src="https://images.pexels.com/photos/3266703/pexels-photo-3266703.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Heere ki anguthi" loading="lazy"><span class="cap"><b>हीरा</b>Solitaire aur cluster</span></a>
+      <a class="tile" href="#collection" data-go="silver"><img src="https://images.pexels.com/photos/1395305/pexels-photo-1395305.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chandi aur moti ki anguthi" loading="lazy"><span class="cap"><b>चाँदी</b>925 jewellery, payal, bartan</span></a>
+      <a class="tile wide" href="#collection" data-go="gems"><img src="https://images.pexels.com/photos/1458867/pexels-photo-1458867.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Panna ratna ka pendant" loading="lazy"><span class="cap"><b>रत्न और जेम्स स्टोन</b>Panna, Neelam, Pukhraj, Manik — certificate ke saath</span></a>
+      <a class="tile wide" href="#rudraksh"><img src="https://images.pexels.com/photos/31430339/pexels-photo-31430339.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Rudraksh aur sone ki chain" loading="lazy"><span class="cap"><b>रुद्राक्ष</b>1 se 14 mukhi, mala aur kantha</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="calc-sec" id="calculator">
+  <div class="wrap">
+    <h2>Jewellery price calculator</h2>
+    <p class="lede">Aaj ke bhav se apni jewellery ka andaaz lagaayein. Making charge aur stone ki keemat dukaan par design dekh kar final hoti hai.</p>
+    <div class="calc">
+      <div>
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-tab="metal">Sona / Chandi</button>
+          <button role="tab" aria-selected="false" data-tab="ratti">Ratti ↔ Carat</button>
+        </div>
+
+        <div id="tab-metal" class="fields">
+          <div class="f"><label for="metal">Dhatu</label>
+            <select id="metal"><option value="gold">Sona</option><option value="silver">Chandi</option></select></div>
+          <div class="f"><label for="purity">Shuddhta</label>
+            <select id="purity"></select></div>
+          <div class="f"><label for="weight">Vajan (gram)</label>
+            <input id="weight" type="number" min="0" step="0.01" value="10" inputmode="decimal"></div>
+          <div class="f"><label for="rate">Bhav (₹ prati gram)</label>
+            <input id="rate" type="number" min="0" step="1" inputmode="decimal"><span class="hint" id="rate-hint">Live bhav se bhara gaya</span></div>
+          <div class="f full"><label>Making charge</label>
+            <div class="seg" role="group" aria-label="Making charge type">
+              <button type="button" aria-pressed="true" data-mc="pct">% mein</button>
+              <button type="button" aria-pressed="false" data-mc="pg">₹ prati gram</button>
+            </div></div>
+          <div class="f"><label for="mc">Making <span id="mc-unit">(%)</span></label>
+            <input id="mc" type="number" min="0" step="0.5" value="12" inputmode="decimal"></div>
+          <div class="f"><label for="stone">Stone / ratna (₹)</label>
+            <input id="stone" type="number" min="0" step="100" value="0" inputmode="decimal"></div>
+          <div class="f full"><label for="oldgold">Purana sona exchange (gram, 22K)</label>
+            <input id="oldgold" type="number" min="0" step="0.01" value="0" inputmode="decimal"><span class="hint">Purane sone ki keemat bill se ghata di jaayegi</span></div>
+        </div>
+
+        <div id="tab-ratti" class="fields" hidden>
+          <div class="f"><label for="ratti">Ratti</label><input id="ratti" type="number" min="0" step="0.25" value="5" inputmode="decimal"></div>
+          <div class="f"><label for="carat">Carat</label><input id="carat" type="number" min="0" step="0.01" inputmode="decimal"></div>
+          <div class="f"><label for="pratti">Keemat (₹ prati ratti)</label><input id="pratti" type="number" min="0" step="100" value="0" inputmode="decimal"></div>
+          <div class="f"><label for="gram">Gram</label><input id="gram" type="number" readonly></div>
+          <p class="f full hint">1 ratti = 0.91 carat (pakki ratti) · 1 carat = 0.2 gram. Ratna ki asli keemat uski quality aur certificate par tay hoti hai.</p>
+        </div>
+      </div>
+
+      <div class="bill" aria-live="polite">
+        <h3 id="bill-title">Andaazit bill</h3>
+        <dl id="bill"></dl>
+        <div class="total"><span>Kul keemat</span><b id="total">₹0</b></div>
+        <p id="bill-note">GST 3% shaamil. Yeh sirf andaaz hai — final keemat dukaan par.</p>
+        <a class="btn solid" id="bill-wa" target="_blank" rel="noopener" href="#">Yeh quote WhatsApp par bhejein</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="collection">
+  <div class="wrap">
+    <h2>Collection</h2>
+    <p class="lede">Koi design pasand aaye to WhatsApp par photo bhejein — hum vajan, bhav aur milti-julti designs bata denge.</p>
+    <div class="chips" role="group" aria-label="Collection filter">
+      <button aria-pressed="true" data-f="all">Sab</button>
+      <button aria-pressed="false" data-f="gold">Sona</button>
+      <button aria-pressed="false" data-f="diamond">Heera</button>
+      <button aria-pressed="false" data-f="silver">Chandi</button>
+      <button aria-pressed="false" data-f="gems">Ratna</button>
+      <button aria-pressed="false" data-f="rudraksh">Rudraksh</button>
+    </div>
+    <div class="grid" id="grid"></div>
+  </div>
+</section>
+
+<section class="spirit" id="rudraksh">
+  <div class="wrap">
+    <h2>Navratna aur Rudraksh</h2>
+    <p class="lede">Ratna aur rudraksh kundli aur zaroorat dekh kar hi pehnein. Dukaan par baith kar sahi chunav mein hum madad karte hain.</p>
+    <div class="split">
+      <div>
+        <h3 class="display" style="color:var(--brass);font-size:1.5rem;margin-bottom:.8rem">नवरत्न — नौ ग्रह</h3>
+        <ul class="ratna">
+          <li><span class="gem" style="background:#B3122E"></span><b>Manik</b><small>Surya</small></li>
+          <li><span class="gem" style="background:#F2EEE6"></span><b>Moti</b><small>Chandra</small></li>
+          <li><span class="gem" style="background:#D2452B"></span><b>Moonga</b><small>Mangal</small></li>
+          <li><span class="gem" style="background:#16834A"></span><b>Panna</b><small>Budh</small></li>
+          <li><span class="gem" style="background:#E7B91F"></span><b>Pukhraj</b><small>Guru</small></li>
+          <li><span class="gem" style="background:#E9F3FF"></span><b>Heera</b><small>Shukra</small></li>
+          <li><span class="gem" style="background:#1D3FA8"></span><b>Neelam</b><small>Shani</small></li>
+          <li><span class="gem" style="background:#9A4A1E"></span><b>Gomed</b><small>Rahu</small></li>
+          <li><span class="gem" style="background:#B7A77A"></span><b>Lehsunia</b><small>Ketu</small></li>
+        </ul>
+        <img class="rimg" src="https://images.pexels.com/photos/5370706/pexels-photo-5370706.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Tarashe hue neele ratna" loading="lazy">
+      </div>
+      <div>
+        <h3 class="display" style="color:var(--brass);font-size:1.5rem;margin-bottom:.8rem">रुद्राक्ष — मुखी चुनें</h3>
+        <div class="beads" id="beads" role="group" aria-label="Rudraksh mukhi"></div>
+        <div class="bead-info" id="bead-info"></div>
+        <img class="rimg" src="https://images.pexels.com/photos/6634244/pexels-photo-6634244.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Rudraksh ki mala" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Bharosa kyun karein</h2>
+    <div class="trust">
+      <div><h3>BIS hallmark sona</h3><p>Har sone ke gehne par HUID hallmark. Bill par vajan, shuddhta aur making alag-alag likhi hoti hai.</p></div>
+      <div><h3>Certified ratna</h3><p>Lab certificate ke saath ratna. Ratti aur carat dono mein vajan, aapke saamne taula jaata hai.</p></div>
+      <div><h3>Asli rudraksh</h3><p>Nepal aur Indonesia ke rudraksh, mukhi ki jaanch ke saath. Mala aur kantha order par bhi banate hain.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="calc-sec" id="visit">
+  <div class="wrap">
+    <h2>Shop par aayein</h2>
+    <div class="visit">
+      <dl>
+        <div><dt>Pata</dt><dd><address>Block C, Shop on Ground Floor of Prop No. 2, Kh No. 56/12/1 and 56/19/1, Opposite Madhav Super Store, Shyam Colony, Budh Vihar Phase II, Delhi – 110086</address></dd></div>
+        <div><dt>Mobile / WhatsApp</dt><dd><a href="tel:+918851911653">88519 11653</a> · <a href="tel:+919811810235">98118 10235</a></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:info@omgpgems.com">info@omgpgems.com</a><br><a href="mailto:jitendarsoni1975@gmail.com">jitendarsoni1975@gmail.com</a></dd></div>
+        <div><dt>Website</dt><dd><a href="https://www.omgpgems.com">www.omgpgems.com</a></dd></div>
+        <div><a class="btn solid" href="https://www.google.com/maps/search/?api=1&query=Madhav+Super+Store+Shyam+Colony+Budh+Vihar+Phase+2+Delhi+110086" target="_blank" rel="noopener">Google Maps par rasta dekhein</a></div>
+      </dl>
+      <iframe title="Om Gauri Putra Gems ka naksha" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Shyam+Colony+Budh+Vihar+Phase+II+Delhi+110086&z=15&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p class="display">॥ ॐ नमः शिवाय ॥</p>
+  <p>© <span id="yr"></span> Om Gauri Putra Gems Jewellery and Rudraksh, Delhi</p>
+  <p>Website ke bhav sirf jaankari ke liye hain. Shop ka bhav din mein badal sakta hai.</p>
+</footer>
+
+<a class="wa-float" href="https://wa.me/918851911653" target="_blank" rel="noopener" aria-label="WhatsApp par baat karein">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6-.3.4c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.6-.1 1.2z"/></svg>
+</a>
+
+<script>
+/* ===== SHOP SETTINGS — dukaan wale yahan badlein ===== */
+const CONFIG = {
+  whatsapp: "918851911653",
+  // Apna roz ka bhav daalna ho to yahan likhein (₹ prati gram). null = live bhav.
+  // Example: manual: { gold24: 7850, silver: 98 }
+  manual: null,
+  // International bhav ko Indian market bhav banane ke liye (customs duty + premium)
+  marketPremium: 0.06,
+  refreshMinutes: 5
+};
+/* ===================================================== */
+
+const OZ = 31.1035;
+const PURITY = { gold: [["24K (999)",0.999],["22K (916)",0.916],["18K (750)",0.75],["14K (585)",0.585]],
+                 silver: [["999 Fine",0.999],["925 Sterling",0.925]] };
+const inr = n => new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(Math.round(n||0));
+const $ = id => document.getElementById(id);
+let RATE = { gold24:null, silver:null }; // ₹ per gram, 999
+
+async function loadRates(){
+  const live = $("live");
+  if (CONFIG.manual){ RATE = {...CONFIG.manual}; live.textContent="Dukaan ka bhav"; live.classList.remove("off"); paint("Aaj ka bhav dukaan dwara set kiya gaya."); return; }
+  try{
+    const j = u => fetch(u,{cache:"no-store"}).then(r=>{ if(!r.ok) throw 0; return r.json(); });
+    const [xau,xag,fx] = await Promise.all([
+      j("https://api.gold-api.com/price/XAU"),
+      j("https://api.gold-api.com/price/XAG"),
+      j("https://open.er-api.com/v6/latest/USD")
+    ]);
+    const usdInr = fx.rates.INR, k = 1 + CONFIG.marketPremium;
+    RATE.gold24 = xau.price * usdInr / OZ * k;
+    RATE.silver = xag.price * usdInr / OZ * k;
+    live.textContent = "Live"; live.classList.remove("off");
+    const t = new Date().toLocaleTimeString("en-IN",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit"});
+    paint(`Updated ${t} IST · GST alag · $1 = ₹${usdInr.toFixed(2)}. Bhav andaazit hai, dukaan par confirm karein.`);
+  }catch(e){
+    live.textContent = "Offline"; live.classList.add("off");
+    if (RATE.gold24) paint("Live bhav abhi nahi mil raha — pichhla bhav dikh raha hai.");
+    else { $("rate-meta").textContent = "Live bhav abhi nahi mil raha. Aaj ka bhav jaanne ke liye 88519 11653 par call karein."; }
+  }
+}
+function paint(msg){
+  const g = RATE.gold24;
+  if (g){
+    $("r-g24").textContent = inr(g*10);
+    $("r-g22").textContent = inr(g*10*0.916/0.999);
+    $("r-g18").textContent = inr(g*10*0.75/0.999);
+  }
+  if (RATE.silver) $("r-ag").textContent = inr(RATE.silver*1000);
+  $("rate-meta").textContent = msg;
+  fillRate(); calc();
+}
+
+/* ---- calculator ---- */
+let mcType = "pct", rateEdited = false;
+function fillPurity(){
+  const m = $("metal").value;
+  $("purity").innerHTML = PURITY[m].map(([l,v],i)=>`<option value="${v}" ${m==="gold"&&i===1?"selected":""}>${l}</option>`).join("");
+  $("mc").value = m==="gold" ? (mcType==="pct"?12:600) : (mcType==="pct"?8:15);
+  $("oldgold").closest(".f").hidden = m!=="gold";
+  rateEdited = false; fillRate();
+}
+function fillRate(){
+  if (rateEdited) return;
+  const m = $("metal").value, p = +$("purity").value, base = m==="gold"?RATE.gold24:RATE.silver;
+  if (base){ $("rate").value = Math.round(base * p / 0.999); $("rate-hint").textContent = "Live bhav se bhara gaya — badal sakte hain"; }
+  else { $("rate-hint").textContent = "Bhav khud daalein"; }
+}
+function calc(){
+  if (!$("tab-metal").hidden){
+    const w=+$("weight").value||0, r=+$("rate").value||0, mc=+$("mc").value||0, st=+$("stone").value||0;
+    const metalVal = w*r;
+    const making = mcType==="pct" ? metalVal*mc/100 : w*mc;
+    const sub = metalVal+making+st, gst = sub*0.03;
+    const og = $("metal").value==="gold" ? (+$("oldgold").value||0) : 0;
+    const ogVal = og * (RATE.gold24 ? RATE.gold24*0.916/0.999 : r);
+    const total = Math.max(0, sub+gst-ogVal);
+    const rows = [["Dhatu ki keemat",metalVal],["Making charge",making]];
+    if (st) rows.push(["Stone / ratna",st]);
+    rows.push(["GST 3%",gst]);
+    if (og) rows.push([`Purana sona (${og} g)`,-ogVal]);
+    $("bill").innerHTML = rows.map(([k,v])=>`<dt>${k}</dt><dd>${v<0?"− ":""}${inr(Math.abs(v))}</dd>`).join("");
+    $("total").textContent = inr(total);
+    $("bill-title").textContent = "Andaazit bill";
+    $("bill-note").textContent = "GST 3% shaamil. Yeh sirf andaaz hai — final keemat dukaan par.";
+    const m = $("metal").selectedOptions[0].text, pu = $("purity").selectedOptions[0].text;
+    const msg = `Namaste, mujhe ${m} ${pu}, ${w} gram ki jewellery ka quote chahiye. Website calculator ke hisaab se lagbhag ${inr(total)} aa raha hai.`;
+    $("bill-wa").href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+  } else {
+    const ratti=+$("ratti").value||0, ct=ratti*0.91, pr=+$("pratti").value||0;
+    if (document.activeElement!==$("carat")) $("carat").value = ct.toFixed(2);
+    $("gram").value = (ct*0.2).toFixed(3);
+    const val = ratti*pr;
+    $("bill").innerHTML = `<dt>Ratti</dt><dd>${ratti}</dd><dt>Carat</dt><dd>${ct.toFixed(2)}</dd><dt>Gram</dt><dd>${(ct*0.2).toFixed(3)}</dd>`;
+    $("total").textContent = inr(val);
+    $("bill-title").textContent = "Ratna ka hisaab";
+    $("bill-note").textContent = "Keemat = ratti × prati ratti bhav. Quality aur certificate ke hisaab se bhav alag hota hai.";
+    const msg = `Namaste, mujhe ${ratti} ratti (${ct.toFixed(2)} carat) ka ratna chahiye. Kripya keemat aur certificate ki jaankari dein.`;
+    $("bill-wa").href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`;
+  }
+}
+$("metal").addEventListener("change", ()=>{ fillPurity(); calc(); });
+$("purity").addEventListener("change", ()=>{ rateEdited=false; fillRate(); calc(); });
+$("rate").addEventListener("input", ()=>{ rateEdited=true; $("rate-hint").textContent="Aapka daala hua bhav"; calc(); });
+["weight","mc","stone","oldgold","ratti","pratti"].forEach(id=>$(id).addEventListener("input",calc));
+$("carat").addEventListener("input",()=>{ $("ratti").value = ((+$("carat").value||0)/0.91).toFixed(2); calc(); });
+document.querySelectorAll("[data-mc]").forEach(b=>b.addEventListener("click",()=>{
+  mcType=b.dataset.mc;
+  document.querySelectorAll("[data-mc]").forEach(x=>x.setAttribute("aria-pressed",x===b));
+  $("mc-unit").textContent = mcType==="pct" ? "(%)" : "(₹/gram)";
+  $("mc").value = $("metal").value==="gold" ? (mcType==="pct"?12:600) : (mcType==="pct"?8:15);
+  calc();
+}));
+document.querySelectorAll("[data-tab]").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll("[data-tab]").forEach(x=>x.setAttribute("aria-selected",x===b));
+  $("tab-metal").hidden = b.dataset.tab!=="metal";
+  $("tab-ratti").hidden = b.dataset.tab!=="ratti";
+  calc();
+}));
+
+/* ---- collection ---- */
+const px = id => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=600`;
+const ITEMS = [
+  ["gold","Dulhan kangan set",29998305,"22K hallmark kangan aur chudiyan, shaadi ke liye"],
+  ["gold","Sagai ki anguthi",3923073,"Halki 22K anguthi, naam ya ratna jadwa sakte hain"],
+  ["gold","Couple band",23716300,"Ek jaisi do anguthiyan, sagai aur shaadi ke liye"],
+  ["diamond","Solitaire ring",691046,"Certified solitaire, 18K gold mein"],
+  ["diamond","Halo diamond ring",10475789,"Rose gold mein chhote heeron ka gher"],
+  ["diamond","Diamond tops",2735970,"Roz pehenne layak heere ke tops"],
+  ["diamond","Marquise cluster ring",3266703,"Party aur reception ke liye bold design"],
+  ["silver","Moti ki anguthi",1395305,"Chandi mein asli moti — Chandra ratna"],
+  ["silver","Statement ring set",1395306,"925 sterling chandi, moti aur zircon"],
+  ["gems","Panna pendant",1458867,"Panna (emerald) ke chaaron or zircon ka gher"],
+  ["gems","Neela topaz",5370706,"Kate hue topaz, anguthi ya pendant ke liye"],
+  ["gems","Heere — loose",5442447,"Alag-alag cut ke loose diamond, apna design banwaayein"],
+  ["rudraksh","Rudraksh mala",6634244,"108+1 daane ki japa mala"],
+  ["rudraksh","Rudraksh gold kantha",31430339,"Sone ki chain mein piroya rudraksh"],
+  ["rudraksh","Panchmukhi mala",2297252,"Roz pehenne ke liye panchmukhi mala"]
+];
+function renderGrid(f){
+  $("grid").innerHTML = ITEMS.filter(i=>f==="all"||i[0]===f).map(([c,n,id,d])=>`
+    <article class="item"><img src="${px(id)}" alt="${n}" loading="lazy">
+      <div><h3>${n}</h3><p>${d}</p>
+      <a href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("Namaste, mujhe '"+n+"' ke baare mein jaankari chahiye.")}" target="_blank" rel="noopener">WhatsApp par poochhein</a></div>
+    </article>`).join("");
+}
+function setFilter(f){
+  document.querySelectorAll("[data-f]").forEach(x=>x.setAttribute("aria-pressed",x.dataset.f===f));
+  renderGrid(f);
+}
+document.querySelectorAll("[data-f]").forEach(b=>b.addEventListener("click",()=>setFilter(b.dataset.f)));
+document.querySelectorAll("[data-go]").forEach(a=>a.addEventListener("click",()=>setFilter(a.dataset.go)));
+
+/* ---- rudraksh ---- */
+const MUKHI = ["Bhagwan Shiv","Ardhanarishwar","Agni Dev","Brahma Ji","Kalagni Rudra","Kartikeya","Mahalakshmi","Ganesh Ji","Maa Durga","Bhagwan Vishnu","Hanuman Ji (Ekadash Rudra)","Surya Dev","Kamdev / Indra","Dev Mani — Hanuman Ji"];
+function showBead(n){
+  document.querySelectorAll(".bead").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.n===n));
+  $("bead-info").innerHTML = `<b>${n} मुखी</b><br>Devta: ${MUKHI[n-1]}. <a href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(`Namaste, ${n} mukhi rudraksh ki keemat aur uplabdhata batayein.`)}" target="_blank" rel="noopener" style="color:var(--brass)">Keemat poochhein</a>`;
+}
+$("beads").innerHTML = MUKHI.map((_,i)=>`<button class="bead" data-n="${i+1}" aria-label="${i+1} mukhi">${i+1}</button>`).join("");
+document.querySelectorAll(".bead").forEach(b=>b.addEventListener("click",()=>showBead(+b.dataset.n)));
+
+/* init */
+$("yr").textContent = new Date().getFullYear();
+fillPurity(); renderGrid("all"); showBead(5); calc();
+loadRates(); setInterval(loadRates, CONFIG.refreshMinutes*60*1000);
+</script>
+</body>
+</html>
